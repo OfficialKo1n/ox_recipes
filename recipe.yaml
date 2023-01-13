@@ -7,13 +7,6 @@ author: Overextended
 description: The official recipe for ox_core.
 
 tasks:
-  ## default CFX resources
-  - action: download_github
-    src: https://github.com/citizenfx/cfx-server-data
-    ref: master
-    subpath: resources
-    dest: ./resources/[cfx-default]
-
   ## prepare server.cfg and icon
   - action: download_github
     src: https://github.com/overextended/ox_recipes
